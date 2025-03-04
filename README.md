@@ -3,7 +3,7 @@
 
 # Scoutberry
 
-A bash automation script for operational network reconnaissance, checking for known vulnerabilities and misconfigurations by simply connecting raspberry pi. Just connect the raspberry to the network and it will receive an IP address and start testing.
+A bash automation script for operational network reconnaissance, checking for known vulnerabilities and misconfigurations by simply connecting raspberry pi. Just connect the raspberry to the network it will receive an IP address and start testing.
 
 ## Features
 
