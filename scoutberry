@@ -60,7 +60,7 @@ port_scan() {
 find_web_services() {
     echo -e "\n[*] Search web-services..."
     
-    httpxx -l "$LOG_DIR/live_hosts.txt" -fr -rhsts -fhr -ports "$PORTS" -title -status-code -web-server -screenshot -silent -j -o "$WEB_DIR/web_services.json"
+    httpx -l "$LOG_DIR/live_hosts.txt" -fr -rhsts -fhr -ports "$PORTS" -title -status-code -web-server -screenshot -silent -j -o "$WEB_DIR/web_services.json"
     [ -s "$WEB_DIR/web_services.json" ] && {
         jq -r '.url' "$WEB_DIR/web_services.json" > "$WEB_DIR/web_urls.txt"
         find . -name "*.png" -exec mv {} "$WEB_DIR/screenshots/" \; 2>/dev/null
