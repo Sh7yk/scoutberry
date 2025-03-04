@@ -45,7 +45,7 @@ A bash automation script for operational network reconnaissance, checking for kn
   sudo apt install netexec
 ## Install
 
-To automatically run a script at system startup, you must do the following:
+To install and automatically run a script at system startup, you must do the following:
  ```bash
 git clone https://github.com/Sh7yk/scoutberry.git
 cd scoutberry
