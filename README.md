@@ -85,4 +85,7 @@ The scoutberry script simply waits for the ethernet cable to be connected and st
 ```bash
 sudo fastscout.sh -i wlan0 -u root -p test
 ```
+## Result
+
+You can find results of recon in /root/results
 ## I am not responsible for the actions you will perform using this tool. Stay ethical and law abiding!
