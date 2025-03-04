@@ -43,10 +43,11 @@ A bash automation script for operational network reconnaissance, checking for kn
   sudo go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
   sudo go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
   sudo apt install netexec
-## Auto start
+## Install
 
 To automatically run a script at system startup, you must do the following:
  ```bash
+git clone https://github.com/Sh7yk/scoutberry.git
 cd scoutberry
 sudo cp scoutberry /usr/local/bin
 sudo chmod +x /usr/local/bin/scoutberry
