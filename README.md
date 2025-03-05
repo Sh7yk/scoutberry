@@ -82,9 +82,9 @@ sudo systemctl enable scoutberry.service
 ```
 ## Usage
 
-The scoutberry script simply waits for the ethernet cable to be connected and starts checking. The fastscout script can be run manually by specifying the network adapter and credentials with which the testing will be performed. We can say that this is a desktop analogue:
+The scoutberry script simply waits for the ethernet cable to be connected and starts checking. The lanscout script can be run manually by specifying the network adapter and credentials with which the testing will be performed. We can say that this is a desktop analogue:
 ```bash
-sudo fastscout.sh -i wlan0 -u root -p test
+sudo lanscout.sh -i wlan0 -u root -p test
 ```
 ## Result
 
