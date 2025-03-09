@@ -1,7 +1,7 @@
 #!/bin/bash
 
 NUCLEI_TEMPLATES="/root/nuclei-templates/http/misconfiguration"
-LOG_DIR="results"
+LOG_DIR="/root/results"
 WEB_DIR="$LOG_DIR/web"
 INTERFACE="eth0"  
 PORTS="80,443,8080,8443,8000,8008,8888,8081,8444,8082"
@@ -27,6 +27,7 @@ while getopts "i:u:p:" opt; do
   esac
 done
 
+mkdir -p "$LOG_DIR"
 mkdir -p "$WEB_DIR/screenshots"
 
 # ================================================
