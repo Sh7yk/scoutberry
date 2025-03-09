@@ -40,7 +40,7 @@ A bash automation script for operational network reconnaissance, checking for kn
 - Required tools:
   ```bash
   sudo apt install nmap jq
-  sudo go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
+  sudo go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
   sudo go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
   sudo apt install netexec
 ## Install
