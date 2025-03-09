@@ -10,6 +10,7 @@ NMAP_PARAMS="-T4 --open --script=ftp-anon,ftp-vuln*,http-iis-short-name-brute,ht
 USER=""
 PASS=""
 
+mkdir -p "$LOG_DIR"
 mkdir -p "$WEB_DIR/screenshots"
 
 # ================================================
