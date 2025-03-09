@@ -1,7 +1,7 @@
 #!/bin/bash
 
 NUCLEI_TEMPLATES="/root/nuclei-templates/http/misconfiguration"
-LOG_DIR="/root/results"
+LOG_DIR="/root/results/$(date +"%Y-%m-%d_%H-%M-%S")"
 WEB_DIR="$LOG_DIR/web"
 INTERFACE="eth0"  
 PORTS="80,443,8080,8443,8000,8008,8888,8081,8444,8082"
