@@ -6,7 +6,7 @@ LOG_DIR="/root/results/$(date +"%Y-%m-%d_%H-%M-%S")"
 WEB_DIR="$LOG_DIR/web"
 INTERFACE="eth0"
 PORTS="80,443,8080,8443,8000,8008,8888,8081,8444,8082"
-NMAP_PARAMS="-T4 --open --script=ftp-anon,ftp-vuln*,http-iis-short-name-brute,http-iis-webdav-vuln,http-robots.txt,http-shellshock,krb5-enum-users,ldap-search,msrpc-enum,ms-sql-info,mysql-vuln*,rdp-vuln-ms12-020,rtsp-url-brute,smb-enum*,smb-vuln*,smb-webexec-exploit,vnc*,xmlrpc-methods"
+NMAP_PARAMS="-T4 --open --script=ftp-anon,http-iis-webdav-vuln,http-robots.txt,http-shellshock,ldap-search,msrpc-enum,ms-sql-info,mysql-vuln*,rdp-vuln-ms12-020,smb-enum*,smb-vuln*,smb-webexec-exploit"
 USER=""
 PASS=""
 
